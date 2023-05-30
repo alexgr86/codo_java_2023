@@ -12,7 +12,8 @@ function calcularTotal() {
         valor = inputCantidad.value * 0.85 * 200;
     }
 
-    inputTotal.value = "Total a pagar: $" + valor;
+    
+    inputTotal.value = "Total a pagar: $" + valor.toFixed(2);
     
 }
 
